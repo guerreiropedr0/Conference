@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  background-color: #201c1c;
 }
 
 ul {
@@ -15,28 +16,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .collapse {
-  display: none;
+  display: initial;
 }
 
 .web-button {
-  background-color: #ec5242;
+  background-color: #282424;
   color: #fff;
+  font-weight: 600;
   padding: 1.5rem;
   border: none;
   width: fit-content;
 }
 
 .web-button:hover, .web-button:active {
-  background-color: #f84734;
-  border: 0.0625rem solid #fff;
-}
-
-.home-page {
-  background-color: #d3d3d3;
+  background-color: #383535;
 }
 
 .navigation-menu {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  background-color: #282424;
 }
 
 .navigation-icon {
@@ -53,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p {
   top: 0;
   left: 0;
   overflow: hidden;
-  background-color: #272a31;
+  background-color: #282424;
 }
 
 .navigation-list li {
@@ -67,12 +65,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .navigation-list a {
   text-decoration: none;
-  color: #ec5242;
+  color: #fff;
   font-size: 3rem;
 }
 
 .navigation-list a:active {
-  color: #fff;
+  color: #ffa630;
 }
 
 .home-page-content {
@@ -81,35 +79,35 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 1rem 1rem 0 1rem;
 }
 
-.home-page-content h3 {
-  color: #ec5242;
-  font-size: 1.6rem;
+.home-page-content h2 {
+  color: #c0c0c0;
+  font-size: 1.6rem;  
   font-weight: normal;
 }
 
 .home-page-content h1 {
-  color: #ec5242;
+  color: #ffa630;
   font-size: 2.3rem;
   font-weight: 900;
   text-shadow: 0.0625rem 0.0625rem 0.25rem #000;
 }
 
 .home-page-content p {
-  background-color: #d3d3d3;
-  border: 0.125rem solid #fff;
+  color: #fff;
+  border: 0.125rem solid #ffa630;
   padding: 1rem;
   margin: 1.5rem 0;
   word-spacing: 0.1rem;
 }
 
-.home-page h2 {
-  color: #272a31;
+.home-page h3 {
+  color: #fff;
   font-weight: 900;
 }
 
 .home-page h4 {
   margin-top: 0.5rem;
-  color: #272a31;
+  color: #c0c0c0;
   margin-bottom: 5rem;
 }
 
@@ -118,12 +116,13 @@ h1, h2, h3, h4, h5, h6, p {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   row-gap: 1rem;
-  background-color: #272a31;
   padding: 2rem 0;
+  background-color: #181515;
 }
 
 .main-program h3 {
   text-align: center;
+  font-size: 1.4rem;
   color: #fff;
   margin-bottom: 1rem;
   font-weight: normal;
@@ -131,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .main-program h3 hr {
   width: 2rem;
-  border: 0.0625rem solid #ec5242;
+  border: 0.0625rem solid #ffa630;
 }
 
 .program-item {
@@ -143,12 +142,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .program-item h4 {
-  color: #ec5242;
+  color: #ffa630;
   flex: 0.8;
 }
 
 .program-item i {
-  color: white;
+  color: #fff;
   margin-right: 0.3125rem;
 }
 
@@ -167,23 +166,33 @@ h1, h2, h3, h4, h5, h6, p {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  margin: 1rem;
 }
 
 .main-featured h3 {
   text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: normal;
 }
 
 .main-featured h3 hr {
   width: 2rem;
-  border: 0.0625rem solid #ec5242;
+  border: 0.0625rem solid #ffa630;
   margin-bottom: 2rem;
+}
+
+.main-featured button {
+  justify-self: center;
+  background-color: #181515;
+  margin-bottom: 3rem;
 }
 
 .featured-player {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
 }
 
 .featured-player img {
@@ -197,12 +206,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .player-description h4 {
-  color: #272a31;
+  color: #fff;
   font-size: 1.2rem;
 }
 
 .player-description h5 {
-  color: #ec5242;
+  color: #c0c0c0;
   font-style: italic;
   margin-top: 0.5rem;
 }
@@ -210,9 +219,171 @@ h1, h2, h3, h4, h5, h6, p {
 .player-description h5 hr {
   width: 1rem;
   margin: 0.7rem 0;
-  border: 0.0625rem solid #d3d3d3;
+  border: 0.0625rem solid #ffa630;
 }
 
 .player-description p {
   font-size: 0.7rem;
+  color: #fff;
+}
+
+.aboutme-page {
+  background: #181515;
+}
+
+.aboutme-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutme-page-content h2 {
+  color: #c0c0c0;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+.aboutme-page-content h1 {
+  color: #ffa630;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.aboutme-page-content p {
+  color: #fff;
+  background-color: #282424;
+  border: 0.125rem solid #ffa630;
+  padding: 2rem 0.25rem;
+  margin: 1rem;
+  word-spacing: 0.1rem;
+}
+
+.aboutme-page-content footer {
+  margin-bottom: 3rem;
+}
+
+.aboutme-page-content footer h3 {
+  color: #fff;
+  margin: 1rem 1rem 0.25rem 1rem;
+  font-size: 0.90rem;
+  font-weight: normal;
+}
+
+.aboutme-page-content footer a {
+  color: #ffa630;
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 0.90rem;
+  margin-bottom: 3rem;
+}
+
+.logo-page {
+  background-color: #181515;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+}
+
+.logo-page h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.logo-page h3 hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+  margin-bottom: 1rem;
+}
+
+.logo-page p {
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.logo-page img {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+}
+
+.logo-page hr {
+  width: 100%;
+  border: 0.0625rem solid #ffa630;
+  margin-bottom: 0;
+}
+
+.pastcon-page {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+}
+
+.pastcon-page h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.pastcon-page h3 hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+}
+
+.pastcon-page p {
+  color: #fff;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.con-2018 {
+  background: url('./images/mobile/main-page/fpscon2018.jpg');
+  height: 30vh;
+  background-size: 100%;
+  margin: 1rem;
+}
+
+.color-overlay {
+  background-color: rgba(255, 166, 48, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-2018 h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.con-2018 h5 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.con-2020 {
+  background: url('./images/mobile/main-page/fpscon2020.png');
+  height: 30vh;
+  background-size: 100%;
+  margin: 1rem;
+}
+
+.con-2020 h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.con-2020 h5 {
+  color: #fff;
+  font-size: 1.2rem;
 }

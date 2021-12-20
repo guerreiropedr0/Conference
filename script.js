@@ -76,17 +76,19 @@ MAIN_FEATURED.innerHTML += FIRST_PLAYERS;
 
 loadFirstFeatured();
 
-const MORE_BUTTON = document.createElement('button');
+let MORE_BUTTON = document.createElement('button');
 MORE_BUTTON.type = 'button';
 MORE_BUTTON.innerHTML = 'MORE';
+MORE_BUTTON.classList.add('web-button');
 MAIN_FEATURED.appendChild(MORE_BUTTON);
 
-const LESS_BUTTON = document.createElement('button');
+let LESS_BUTTON = document.createElement('button');
 LESS_BUTTON.type = 'button';
+LESS_BUTTON.classList.add('web-button');
 LESS_BUTTON.innerHTML = 'LESS';
 
 MORE_BUTTON.addEventListener('click', () => {
-  MORE_BUTTON.classList.add('collapse');
+  MORE_BUTTON.style.display = 'none';
   for (let i = 0; i < NEXT_FEATURED_PLAYERS.length; i += 1) {
   const NEXT_PLAYERS = 
 `<div class="featured-player" id="${NEXT_FEATURED_PLAYERS[i].Id}">
@@ -103,5 +105,5 @@ MAIN_FEATURED.appendChild(LESS_BUTTON);
 });
 
 LESS_BUTTON.addEventListener('click', () => {
-  MORE_BUTTON.classList.remove('collapse');
+  MORE_BUTTON.classList.add('collapse');
 })
