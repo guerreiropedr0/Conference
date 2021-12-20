@@ -231,6 +231,13 @@ h1, h2, h3, h4, h5, h6, p {
   background: #181515;
 }
 
+.navigation-logo {
+  width: 26%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .aboutme-page-content {
   display: flex;
   flex-direction: column;
@@ -375,7 +382,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: url('./images/mobile/main-page/fpscon2020.png');
   height: 30vh;
   background-size: 100%;
-  margin: 1rem;
+  margin: 1rem 1rem 4rem 1rem;
 }
 
 .con-2020 h4 {
@@ -386,4 +393,54 @@ h1, h2, h3, h4, h5, h6, p {
 .con-2020 h5 {
   color: #fff;
   font-size: 1.2rem;
+}
+
+.partners-page {
+  background-color: #181515;
+  padding: 2rem 0;
+}
+
+.partners-page h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: normal;
+}
+
+.partners-page h3 hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+}
+
+.partners{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-logo {
+  width: 33%;
+}
+
+.rights-page {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.rights-page h2 {
+  color:#ffa630;
+  font-weight: normal;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.rights-page p {
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 0.7rem;
 }

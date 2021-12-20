@@ -104,6 +104,3 @@ MAIN_FEATURED.innerHTML += NEXT_PLAYERS;
 MAIN_FEATURED.appendChild(LESS_BUTTON);
 });
 
-LESS_BUTTON.addEventListener('click', () => {
-  MORE_BUTTON.classList.add('collapse');
-})
