@@ -36,7 +36,8 @@ p {
   width: fit-content;
 }
 
-.web-button:hover, .web-button:active {
+.web-button:hover,
+.web-button:active {
   background-color: #383535;
 }
 
@@ -137,6 +138,29 @@ p {
   margin-bottom: 3rem;
 }
 
+.logo-page h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.pastcon-page h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.partners-page h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: normal;
+}
+
 .aboutme-page-content footer h3 {
   color: #fff;
   margin: 1rem 1rem 0.25rem 1rem;
@@ -169,12 +193,10 @@ p {
   text-align: center;
 }
 
-.logo-page h3 {
-  text-align: center;
-  color: #fff;
-  margin-bottom: 0.5rem;
-  font-weight: normal;
-  font-size: 1.4rem;
+.logo-page hr {
+  width: 99%;
+  border: 0.0625rem solid #ffa630;
+  margin-bottom: 0;
 }
 
 .logo-page h3 hr {
@@ -193,26 +215,12 @@ p {
   margin: 1rem 0 2rem 0;
 }
 
-.logo-page hr {
-  width: 99%;
-  border: 0.0625rem solid #ffa630;
-  margin-bottom: 0;
-}
-
 .pastcon-page {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   text-align: center;
-}
-
-.pastcon-page h3 {
-  text-align: center;
-  color: #fff;
-  margin-bottom: 0.5rem;
-  font-weight: normal;
-  font-size: 1.4rem;
 }
 
 .pastcon-page h3 hr {
@@ -274,19 +282,12 @@ p {
   padding: 2rem 0;
 }
 
-.partners-page h3 {
-  text-align: center;
-  font-size: 1.4rem;
-  color: #fff;
-  font-weight: normal;
-}
-
 .partners-page h3 hr {
   width: 2rem;
   border: 0.0625rem solid #ffa630;
 }
 
-.partners{
+.partners {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -307,7 +308,7 @@ p {
 }
 
 .rights-page h2 {
-  color:#ffa630;
+  color: #ffa630;
   font-weight: normal;
   font-size: 1.3rem;
   text-align: center;
@@ -321,7 +322,6 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-
   .navigation-menu {
     padding: 0;
     background-color: #282424;
@@ -367,7 +367,7 @@ p {
   .navigation-list li {
     list-style: none;
     margin: 0 3rem;
-    }
+  }
 
   .navigation-button {
     display: none;
@@ -379,7 +379,12 @@ p {
     font-size: 1rem;
   }
 
-  .navigation-list a:active, .navigation-list a:hover {
+  .aboutme-page-content footer a {
+    font-size: 1rem;
+  }
+
+  .navigation-list a:active,
+  .navigation-list a:hover {
     color: #ffa630;
   }
 
@@ -423,21 +428,22 @@ p {
     width: 40%;
   }
 
-  .aboutme-page-content footer h3 {
-    font-size: 1.1rem;
+  .logo-page h3 {
+    font-size: 2rem;
   }
 
-  .aboutme-page-content footer a {
-    font-size: 1rem;
+  .pastcon-page h3 {
+    font-size: 2rem;
+    grid-column: 1 / span 2;
+  }
+
+  .aboutme-page-content footer h3 {
+    font-size: 1.1rem;
   }
 
   .aboutme-page-content footer a i {
     display: inline-block;
     margin-left: 0.5rem;
-  }
-
-  .logo-page h3 {
-    font-size: 2rem;
   }
 
   .logo-page p {
@@ -452,13 +458,8 @@ p {
   }
 
   .pastcon-page {
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
-}
-
-  .pastcon-page h3 {
-    font-size: 2rem;
-    grid-column: 1 / span 2;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
   }
 
   .pastcon-page p {

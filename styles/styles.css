@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: 0;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .web-button {
@@ -260,7 +260,7 @@ p {
   border: 0.0625rem solid #ffa630;
 }
 
-.partners{
+.partners {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -281,7 +281,7 @@ p {
 }
 
 .rights-page h2 {
-  color:#ffa630;
+  color: #ffa630;
   font-weight: normal;
   font-size: 1.3rem;
   text-align: center;
@@ -295,7 +295,6 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-
   .navigation-menu {
     padding: 0;
     background-color: #282424;
@@ -341,7 +340,7 @@ p {
   .navigation-list li {
     list-style: none;
     margin: 0 3rem;
-    }
+  }
 
   .navigation-button {
     display: none;
@@ -376,7 +375,6 @@ p {
   .home-page-content {
     margin-left: 15rem;
   }
-
 
   .home-page-content h2 {
     font-size: 4rem;
@@ -462,7 +460,7 @@ p {
     grid-column: 1 / span 5;
   }
 
-    .main-featured {
+  .main-featured {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto;
@@ -506,7 +504,7 @@ p {
   }
 
   .player-description {
-    margin: 1rem; 
+    margin: 1rem;
     display: flex;
     flex-direction: column;
   }
