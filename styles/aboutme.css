@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: 0;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .web-button {
@@ -139,7 +139,7 @@ p {
 .aboutme-page-content footer h3 {
   color: #fff;
   margin: 1rem 1rem 0.25rem 1rem;
-  font-size: 0.90rem;
+  font-size: .90rem;
   font-weight: normal;
 }
 
@@ -147,8 +147,12 @@ p {
   color: #ffa630;
   text-decoration: underline;
   font-weight: 800;
-  font-size: 0.90rem;
+  font-size: .90rem;
   margin-bottom: 3rem;
+}
+
+.aboutme-page-content footer a i {
+  display: none;
 }
 
 .logo-page {
@@ -423,6 +427,7 @@ p {
   }
 
   .aboutme-page-content footer a i {
+    display: inline-block;
     margin-left: 0.5rem;
   }
 
