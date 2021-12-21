@@ -1,4 +1,4 @@
-const MAIN_FEATURED = document.querySelector('.main-featured');  
+const MAIN_FEATURED = document.querySelector('.main-featured');
 const FEATURED_PLAYERS = [
   {
     Id: '1',

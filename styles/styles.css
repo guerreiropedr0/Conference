@@ -237,6 +237,11 @@ p {
   margin-top: 0.5rem;
 }
 
+.partners-page hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+}
+
 .player-description h5 hr {
   width: 1rem;
   margin: 0.7rem 0;
@@ -259,11 +264,6 @@ p {
   font-size: 1.4rem;
   color: #fff;
   font-weight: normal;
-}
-
-.partners-page hr {
-  width: 2rem;
-  border: 0.0625rem solid #ffa630;
 }
 
 .partners {
