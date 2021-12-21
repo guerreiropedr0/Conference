@@ -53,12 +53,12 @@ MORE_ICON.classList.add('fa', 'fa-angle-down');
 MORE_BUTTON.appendChild(MORE_ICON);
 
 function loadFirstFeatured() {
-  if (screen.width < 768) {
+  if (window.screen.width < 768) {
     for (let i = 0; i < 2; i += 1) {
       const FIRST_PLAYERS = `<div class="featured-player"><img src=${FEATURED_PLAYERS[i].Img}><div class="player-description"><h4>${FEATURED_PLAYERS[i].Name}</h4><h5>${FEATURED_PLAYERS[i].Role}<hr></h5><p>${FEATURED_PLAYERS[i].Description}</p></div></div>`;
       MAIN_FEATURED.innerHTML += FIRST_PLAYERS;
     }
-  } else if (screen.width > 768) {
+  } else if (window.screen.width > 768) {
     MORE_BUTTON.style.display = 'none';
     for (let i = 0; i < FEATURED_PLAYERS.length; i += 1) {
       const ALL_PLAYERS = `<div class="featured-player"><img src=${FEATURED_PLAYERS[i].Img}><div class="player-description"><h4>${FEATURED_PLAYERS[i].Name}</h4><h5>${FEATURED_PLAYERS[i].Role}<hr></h5><p>${FEATURED_PLAYERS[i].Description}</p></div></div>`;
