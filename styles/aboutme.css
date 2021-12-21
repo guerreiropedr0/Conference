@@ -223,9 +223,10 @@ p {
   text-align: center;
 }
 
-.pastcon-page h3 hr {
+.pastcon-page hr {
   width: 2rem;
   border: 0.0625rem solid #ffa630;
+  grid-column: 1 / span 2;
 }
 
 .pastcon-page p {
