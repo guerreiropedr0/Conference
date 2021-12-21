@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #201c1c;
 }
 
@@ -11,12 +9,17 @@ ul {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+#active {
+  color: #ffa630;
+}
+
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.collapse {
-  display: initial;
+p {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .web-button {
@@ -35,6 +38,14 @@ h1, h2, h3, h4, h5, h6, p {
 .navigation-menu {
   padding-bottom: 1rem;
   background-color: #282424;
+}
+
+.navigation-socialmedia {
+  display: none;
+}
+
+.navigation-campaign {
+  display: none;
 }
 
 .navigation-icon {
@@ -73,160 +84,6 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ffa630;
 }
 
-.home-page-content {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem 1rem 0 1rem;
-}
-
-.home-page-content h2 {
-  color: #c0c0c0;
-  font-size: 1.6rem;  
-  font-weight: normal;
-}
-
-.home-page-content h1 {
-  color: #ffa630;
-  font-size: 2.3rem;
-  font-weight: 900;
-  text-shadow: 0.0625rem 0.0625rem 0.25rem #000;
-}
-
-.home-page-content p {
-  color: #fff;
-  border: 0.125rem solid #ffa630;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  word-spacing: 0.1rem;
-}
-
-.home-page h3 {
-  color: #fff;
-  font-weight: 900;
-}
-
-.home-page h4 {
-  margin-top: 0.5rem;
-  color: #c0c0c0;
-  margin-bottom: 5rem;
-}
-
-.main-program {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
-  row-gap: 1rem;
-  padding: 2rem 0;
-  background-color: #181515;
-}
-
-.main-program h3 {
-  text-align: center;
-  font-size: 1.4rem;
-  color: #fff;
-  margin-bottom: 1rem;
-  font-weight: normal;
-}
-
-.main-program h3 hr {
-  width: 2rem;
-  border: 0.0625rem solid #ffa630;
-}
-
-.program-item {
-  display: flex;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
-  margin: 0 1rem 0 1rem;
-  align-items: center;
-}
-
-.program-item h4 {
-  color: #ffa630;
-  flex: 0.8;
-}
-
-.program-item i {
-  color: #fff;
-  margin-right: 0.3125rem;
-}
-
-.program-item p {
-  color: #fff;
-  flex: 1;
-}
-
-.main-program button {
-  justify-self: center;
-  margin-top: 1rem;
-  font-size: 1rem;
-}
-
-.main-featured {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
-}
-
-.main-featured h3 {
-  text-align: center;
-  margin-top: 2rem;
-  color: #fff;
-  font-size: 1.4rem;
-  font-weight: normal;
-}
-
-.main-featured h3 hr {
-  width: 2rem;
-  border: 0.0625rem solid #ffa630;
-  margin-bottom: 2rem;
-}
-
-.main-featured button {
-  justify-self: center;
-  background-color: #181515;
-  margin-bottom: 3rem;
-}
-
-.featured-player {
-  display: flex;
-  align-items: center;
-  margin-bottom: 3rem;
-  margin-left: 1rem;
-}
-
-.featured-player img {
-  box-shadow: 0.0625rem 0.0625rem 0.3125rem black;
-}
-
-.player-description {
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.player-description h4 {
-  color: #fff;
-  font-size: 1.2rem;
-}
-
-.player-description h5 {
-  color: #c0c0c0;
-  font-style: italic;
-  margin-top: 0.5rem;
-}
-
-.player-description h5 hr {
-  width: 1rem;
-  margin: 0.7rem 0;
-  border: 0.0625rem solid #ffa630;
-}
-
-.player-description p {
-  font-size: 0.7rem;
-  color: #fff;
-}
-
 .aboutme-page {
   background: #181515;
 }
@@ -236,6 +93,10 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.navigation-logo-desktop {
+  display: none;
 }
 
 .aboutme-page-content {
@@ -256,6 +117,10 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ffa630;
   font-size: 2.3rem;
   font-weight: 900;
+}
+
+.aboutme-page-content hr {
+  display: none;
 }
 
 .aboutme-page-content p {
@@ -320,7 +185,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo-page hr {
-  width: 100%;
+  width: 99%;
   border: 0.0625rem solid #ffa630;
   margin-bottom: 0;
 }
@@ -352,7 +217,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .con-2018 {
-  background: url('./images/mobile/main-page/fpscon2018.jpg');
+  background-image: url('/images/mobile/main-page/fpscon2018.jpg');
   height: 30vh;
   background-size: 100%;
   margin: 1rem;
@@ -379,7 +244,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .con-2020 {
-  background: url('./images/mobile/main-page/fpscon2020.png');
+  background: url('/images/mobile/main-page/fpscon2020.png');
   height: 30vh;
   background-size: 100%;
   margin: 1rem 1rem 4rem 1rem;
@@ -429,6 +294,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 2rem 0;
   gap: 1rem;
   justify-content: space-around;
+  border-top: 0.0625rem solid #ffa630;
 }
 
 .rights-page h2 {
@@ -443,4 +309,181 @@ h1, h2, h3, h4, h5, h6, p {
   color: #fff;
   margin-right: 1rem;
   font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .navigation-menu {
+    padding: 0;
+    background-color: #282424;
+  }
+
+  .navigation-socialmedia {
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 20rem;
+    background-color: #181515;
+    align-items: center;
+  }
+
+  .navigation-socialmedia i {
+    color: #fff;
+  }
+
+  .navigation-socialmedia li {
+    margin: 1rem;
+  }
+
+  .navigation-icon {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    flex-direction: row;
+    height: initial;
+    width: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+    overflow: initial;
+    background-color: #282424;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 18rem;
+  }
+
+  .navigation-list li {
+    list-style: none;
+    margin: 0 3rem;
+    }
+
+  .navigation-button {
+    display: none;
+  }
+
+  .navigation-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .navigation-list a:active, .navigation-list a:hover {
+    color: #ffa630;
+  }
+
+  .navigation-campaign {
+    display: inherit;
+    border: 0.25rem solid #ffa630;
+    color: #ffa630;
+    padding: 1rem;
+  }
+
+  .navigation-logo-desktop {
+    display: inherit;
+    width: initial;
+    position: initial;
+    top: initial;
+    right: initial;
+    margin-right: 15rem;
+  }
+
+  .navigation-logo {
+    display: none;
+  }
+
+  .aboutme-page-content h2 {
+    display: none;
+  }
+
+  .aboutme-page-content h1 {
+    margin-top: 5rem;
+    width: 30%;
+    font-size: 4rem;
+  }
+
+  .aboutme-page-content hr {
+    display: initial;
+    width: 2rem;
+    border: 0.0625rem solid #ffa630;
+  }
+
+  .aboutme-page-content p {
+    width: 40%;
+  }
+
+  .aboutme-page-content footer h3 {
+    font-size: 1.1rem;
+  }
+
+  .aboutme-page-content footer a {
+    font-size: 1rem;
+  }
+
+  .aboutme-page-content footer a i {
+    margin-left: 0.5rem;
+  }
+
+  .logo-page h3 {
+    font-size: 2rem;
+  }
+
+  .logo-page p {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6rem;
+  }
+
+  .logo-page img {
+    width: 30%;
+    margin: auto;
+  }
+
+  .pastcon-page {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+  .pastcon-page h3 {
+    font-size: 2rem;
+    grid-column: 1 / span 2;
+  }
+
+  .pastcon-page p {
+    grid-column: 1 / span 2;
+  }
+
+  .con-2018 {
+    justify-self: flex-end;
+    width: 60%;
+  }
+
+  .con-2020 {
+    justify-self: flex-start;
+    width: 60%;
+  }
+
+  .partners-page {
+    display: none;
+  }
+
+  .rights-page {
+    justify-content: center;
+    background-color: #181515;
+  }
+
+  .rights-page * {
+    margin: 0 3rem;
+  }
+
+  .rights-page h2 {
+    font-size: 1.6rem;
+  }
+
+  .rights-page p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }

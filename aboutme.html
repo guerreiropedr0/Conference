@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FPS CON</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/aboutme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header class="aboutme-page">
       <nav class="navigation-menu">
+        <ul class="navigation-socialmedia">
+          <li>
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <p>English</p>
+          </li>
+          <li>
+            <p>My Page</p>
+          </li>
+          <li>
+            <p>Logout</p>
+          </li>
+        </ul>
         <a href="#">
           <img class="navigation-icon" src="./images/mobile/main-page/hamburger-icon.png" alt="Navigation icon">
         </a>
@@ -17,26 +38,35 @@
           <img class="navigation-logo" src="./images/icon-logo.png" alt="Navigation logo">
         </a>
         <ul class="navigation-list">
+          <li>
+          <a href="./index.html">
+            <img class="navigation-logo-desktop" src="./images/small-logo.png" alt="Navigation logo">
+          </a>
+          </li>
           <li class="navigation-button">
             <a href="#">
               <img src="./images/mobile/main-page/close-btn.png" alt="Navigaton button">
             </a>
           </li>
-          <li><a href="#">About</a></li>
+          <li><a href="./aboutme.html" id="active">About</a></li>
           <li><a href="#">Program</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Sponsor</a></li>
           <li><a href="#">News</a></li>
+          <li class="navigation-campaign"><a href="#">FPSCON Campaign</a></li>
         </ul>
       </nav>
     </header>
       <section class="aboutme-page-content">
         <h2>"Join the realm of shooters"</h2>
         <h1>FPS Games Global Conference 2022</h1>
+        <hr>
         <p>The First Person Shooter Games Global Conference brings together the community of competitive gamers, who enjoy playing by winning. This year, we bring you the biggest teams from around the world of every FPS.</p>
         <footer>
           <h3>Please contact us per E-mail for any further questions about FPS CON 2022!</h3>
-          <a href="#">fpsglobalcon2022@outlook.com</a>
+          <a href="#">fpsglobalcon2022@outlook.com
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </a>
         </footer>
       </section>
     <section class="logo-page">
@@ -74,7 +104,7 @@
     <footer class="rights-page">
       <h2>FPSCON</h2>
       <p>FPSCON 2022.<br> Some Rights Reserved.</p>
-  
     </footer>
+  <script src="./script/script.js"></script>
   </body>
 </html>
