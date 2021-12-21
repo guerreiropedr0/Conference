@@ -193,7 +193,7 @@ p {
   font-weight: normal;
 }
 
-.main-featured h3 hr {
+.main-featured hr {
   width: 2rem;
   border: 0.0625rem solid #ffa630;
   margin-bottom: 2rem;
@@ -486,10 +486,8 @@ p {
     grid-column: 1 / span 2;
   }
 
-  .main-featured h3 hr {
-    width: 2rem;
-    border: 0.0625rem solid #ffa630;
-    margin-bottom: 4rem;
+  .main-featured hr {
+    grid-column: 1 / span 2;
   }
 
   .main-featured button {

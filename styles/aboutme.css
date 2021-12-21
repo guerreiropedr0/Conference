@@ -226,7 +226,6 @@ p {
 .pastcon-page hr {
   width: 2rem;
   border: 0.0625rem solid #ffa630;
-  grid-column: 1 / span 2;
 }
 
 .pastcon-page p {
@@ -283,7 +282,7 @@ p {
   padding: 2rem 0;
 }
 
-.partners-page h3 hr {
+.partners-page hr {
   width: 2rem;
   border: 0.0625rem solid #ffa630;
 }
@@ -464,6 +463,10 @@ p {
   }
 
   .pastcon-page p {
+    grid-column: 1 / span 2;
+  }
+
+  .pastcon-page hr {
     grid-column: 1 / span 2;
   }
 
