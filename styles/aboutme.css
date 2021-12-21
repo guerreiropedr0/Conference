@@ -13,7 +13,12 @@ ul {
   color: #ffa630;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -80,10 +85,6 @@ p {
   font-size: 3rem;
 }
 
-.navigation-list a:active {
-  color: #ffa630;
-}
-
 .aboutme-page {
   background: #181515;
 }
@@ -139,7 +140,7 @@ p {
 .aboutme-page-content footer h3 {
   color: #fff;
   margin: 1rem 1rem 0.25rem 1rem;
-  font-size: .90rem;
+  font-size: 0.9rem;
   font-weight: normal;
 }
 
@@ -147,8 +148,12 @@ p {
   color: #ffa630;
   text-decoration: underline;
   font-weight: 800;
-  font-size: .90rem;
+  font-size: 0.9rem;
   margin-bottom: 3rem;
+}
+
+.navigation-list a:active {
+  color: #ffa630;
 }
 
 .aboutme-page-content footer a i {
