@@ -7,9 +7,14 @@
 Microverse Capstone Project - HTML/CSS & JavaScript Conference page
 
 
+## Video
+
+In the following [link](https://www.loom.com/share/6ab6706e35ce453fa23ccb587cff423c) I am explaining the capstone project.
+
+
 ## Live Server
 
-In the following link, you can view [FPSCON 2022](https://pepedropo1.github.io/Portfolio/).
+In the following link, you can view [FPSCON 2022](https://pepedropo1.github.io/Conference/).
 
 
 ## Built With
@@ -25,6 +30,7 @@ In the following link, you can view [FPSCON 2022](https://pepedropo1.github.io/P
 ### Browser
 
 Any modern browser works! :smile:
+
 
 ### Knowledge
 
@@ -69,14 +75,17 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/pepedropo1/Conference/issues).
 
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
 
 ## Acknowledgments
 
 - Thank you Microverse for the opportunity;
 - [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) that made me copy and change the template.
+
 
 ## 📝 License
 
