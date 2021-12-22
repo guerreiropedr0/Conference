@@ -234,7 +234,7 @@ p {
 }
 
 .con-2018 {
-  background-image: url('./fpscon2018.jpg'); /*I changed the images to this folder because it wasn't showing in html, only with Live server */
+  background-image: url('./fpscon2018.jpg'); /* I changed the images to this folder because it wasn't showing in html, only with Live server */
   height: 30vh;
   background-size: 100%;
   margin: 1rem;
@@ -261,7 +261,7 @@ p {
 }
 
 .con-2020 {
-  background: url('./fpscon2020.png'); /*I changed the images to this folder because it wasn't showing in html, only with Live server */
+  background: url('./fpscon2020.png'); /* I changed the images to this folder because it wasn't showing in html, only with Live server */
   height: 30vh;
   background-size: 100%;
   margin: 1rem 1rem 4rem 1rem;
