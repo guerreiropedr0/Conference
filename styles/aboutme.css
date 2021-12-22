@@ -1,0 +1,504 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #201c1c;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+#active {
+  color: #ffa630;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.web-button {
+  background-color: #282424;
+  color: #fff;
+  font-weight: 600;
+  padding: 1.5rem;
+  border: none;
+  width: fit-content;
+}
+
+.web-button:hover,
+.web-button:active {
+  background-color: #383535;
+}
+
+.navigation-menu {
+  padding-bottom: 1rem;
+  background-color: #282424;
+}
+
+.navigation-socialmedia {
+  display: none;
+}
+
+.navigation-campaign {
+  display: none;
+}
+
+.navigation-icon {
+  width: 12%;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.navigation-list {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #282424;
+}
+
+.navigation-list li {
+  list-style: none;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+.navigation-button {
+  align-self: flex-end;
+}
+
+.navigation-list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.aboutme-page {
+  background: #181515;
+}
+
+.navigation-logo {
+  width: 26%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navigation-logo-desktop {
+  display: none;
+}
+
+.aboutme-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutme-page-content h2 {
+  color: #c0c0c0;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+.aboutme-page-content h1 {
+  color: #ffa630;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.aboutme-page-content hr {
+  display: none;
+}
+
+.aboutme-page-content p {
+  color: #fff;
+  background-color: #282424;
+  border: 0.125rem solid #ffa630;
+  padding: 2rem 0.25rem;
+  margin: 1rem;
+  word-spacing: 0.1rem;
+}
+
+.aboutme-page-content footer {
+  margin-bottom: 3rem;
+}
+
+.logo-page h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.pastcon-page h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.partners-page h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: normal;
+}
+
+.aboutme-page-content footer h3 {
+  color: #fff;
+  margin: 1rem 1rem 0.25rem 1rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.aboutme-page-content footer a {
+  color: #ffa630;
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
+.navigation-list a:active {
+  color: #ffa630;
+}
+
+.aboutme-page-content footer a i {
+  display: none;
+}
+
+.logo-page {
+  background-color: #181515;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+}
+
+.logo-page hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+  margin-bottom: 1rem;
+}
+
+#full-line {
+  width: 99%;
+  border: 0.0625rem solid #ffa630;
+  margin-bottom: 0;
+}
+
+.logo-page p {
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.logo-page img {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+}
+
+.pastcon-page {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+}
+
+.pastcon-page hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+}
+
+.pastcon-page p {
+  color: #fff;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.con-2018 {
+  background-image: url('./fpscon2018.jpg'); /* I changed the images to this folder because it wasn't showing in html, only with Live server */
+  height: 30vh;
+  background-size: 100%;
+  margin: 1rem;
+}
+
+.color-overlay {
+  background-color: rgba(255, 166, 48, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-2018 h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.con-2018 h5 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.con-2020 {
+  background: url('./fpscon2020.png'); /* I changed the images to this folder because it wasn't showing in html, only with Live server */
+  height: 30vh;
+  background-size: 100%;
+  margin: 1rem 1rem 4rem 1rem;
+}
+
+.con-2020 h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.con-2020 h5 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.partners-page {
+  background-color: #181515;
+  padding: 2rem 0;
+}
+
+.partners-page hr {
+  width: 2rem;
+  border: 0.0625rem solid #ffa630;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-logo {
+  width: 33%;
+}
+
+.rights-page {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 1rem;
+  justify-content: space-around;
+  border-top: 0.0625rem solid #ffa630;
+}
+
+.rights-page h2 {
+  color: #ffa630;
+  font-weight: normal;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.rights-page p {
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    padding: 0;
+    background-color: #282424;
+  }
+
+  .navigation-socialmedia {
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 20rem;
+    background-color: #181515;
+    align-items: center;
+  }
+
+  .navigation-socialmedia i {
+    color: #fff;
+  }
+
+  .navigation-socialmedia li {
+    margin: 1rem;
+  }
+
+  .navigation-icon {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    flex-direction: row;
+    height: initial;
+    width: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+    overflow: initial;
+    background-color: #282424;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 18rem;
+  }
+
+  .navigation-list li {
+    list-style: none;
+    margin: 0 3rem;
+  }
+
+  .navigation-button {
+    display: none;
+  }
+
+  .navigation-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .aboutme-page-content footer a {
+    font-size: 1rem;
+  }
+
+  .navigation-list a:active,
+  .navigation-list a:hover {
+    color: #ffa630;
+  }
+
+  .navigation-campaign {
+    display: inherit;
+    border: 0.25rem solid #ffa630;
+    color: #ffa630;
+    padding: 1rem;
+  }
+
+  .navigation-logo-desktop {
+    display: inherit;
+    width: initial;
+    position: initial;
+    top: initial;
+    right: initial;
+    margin-right: 15rem;
+  }
+
+  .navigation-logo {
+    display: none;
+  }
+
+  .aboutme-page-content h2 {
+    display: none;
+  }
+
+  .aboutme-page-content h1 {
+    margin-top: 5rem;
+    width: 30%;
+    font-size: 4rem;
+  }
+
+  .aboutme-page-content hr {
+    display: initial;
+    width: 2rem;
+    border: 0.0625rem solid #ffa630;
+  }
+
+  .aboutme-page-content p {
+    width: 40%;
+  }
+
+  .logo-page h3 {
+    font-size: 2rem;
+  }
+
+  .pastcon-page h3 {
+    font-size: 2rem;
+    grid-column: 1 / span 2;
+  }
+
+  .aboutme-page-content footer h3 {
+    font-size: 1.1rem;
+  }
+
+  .aboutme-page-content footer a i {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+
+  .logo-page p {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6rem;
+  }
+
+  .logo-page img {
+    width: 30%;
+    margin: auto;
+  }
+
+  .pastcon-page {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .pastcon-page p {
+    grid-column: 1 / span 2;
+  }
+
+  .pastcon-page hr {
+    grid-column: 1 / span 2;
+  }
+
+  .con-2018 {
+    justify-self: flex-end;
+    width: 60%;
+  }
+
+  .con-2020 {
+    justify-self: flex-start;
+    width: 60%;
+  }
+
+  .partners-page {
+    display: none;
+  }
+
+  .rights-page {
+    justify-content: center;
+    background-color: #181515;
+  }
+
+  .rights-page * {
+    margin: 0 3rem;
+  }
+
+  .rights-page h2 {
+    font-size: 1.6rem;
+  }
+
+  .rights-page p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
