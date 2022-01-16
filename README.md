@@ -12,7 +12,7 @@ In the following [link](https://www.loom.com/share/6ab6706e35ce453fa23ccb587cff4
 
 ## Live Server
 
-In the following link, you can view [FPSCON 2022](https://pepedropo1.github.io/Conference/).
+In the following link, you can view [FPSCON 2022](https://guerreiropedr0.github.io/Conference/).
 
 ## Built With
 
